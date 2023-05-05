@@ -1,3 +1,17 @@
 .secundarySection {
   background-color: #131920;
+  min-height: 80vh;
+}
+
+.secundarySection .container {
+  padding: 120px 40px 120px 40px;
+}
+
+.secundarySection .content {
+  width: 50%;
+  min-width: 400px;
+}
+
+.secundarySection .contactInfo {
+  padding-right: 40px;
 }

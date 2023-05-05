@@ -1,13 +1,15 @@
 import React from "react";
+import * as style from "./SecundarySection.module.css";
+import TitleOrangeBar from "../TitleOrangeBar";
 
 export default function index() {
   return (
-    <div className="secundarySection">
-      <div className="container">
+    <div className={style.secundarySection}>
+      <div className={`container ${style.container}`}>
         <div className="col">
-          <div className="content">
-            <h4>kontakt</h4>
-            <div className="contactInfo">
+          <div className={style.content}>
+            <TitleOrangeBar title={"kontakt"} />
+            <div className={style.contactInfo}>
               <p>
                 <strong>CGI CZ s.r.o.</strong>
                 <br />

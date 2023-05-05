@@ -39,26 +39,5 @@
 }
 
 .flexContent .col_2 p {
-  margin-top: 20px;
   padding-right: 10%;
-}
-
-.flexContent .col_2 h4 {
-  font-size: 18px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-left: 10px;
-}
-
-.containerTitleKeepItSimple {
-  display: flex;
-}
-
-.containerTitleKeepItSimple .before {
-  background-image: url("../../img/divider.svg");
-  width: 48px;
-  height: 15.3px;
-  background-size: 16px 15.3px;
-  background-repeat: repeat;
-  background-color: #d54d07;
 }

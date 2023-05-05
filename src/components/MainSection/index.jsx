@@ -1,5 +1,6 @@
 import React from "react";
 import * as style from "./MainSection.module.css";
+import TitleOrangeBar from "../TitleOrangeBar";
 
 export default function index() {
   return (
@@ -44,10 +45,7 @@ export default function index() {
           </div>
           <div className={style.col_2}>
             <div className={style.content}>
-              <div className={style.containerTitleKeepItSimple}>
-                <div className={style.before}></div>
-                <h4>keep it simple</h4>
-              </div>
+              <TitleOrangeBar title={"keep it simple"} />
               <p>
                 Hlásíme se k minimalistickým principům slavného konstruktéra
                 Kellyho Johnsona (Lockheed Skunk Works / autor U-2 a SR-71
