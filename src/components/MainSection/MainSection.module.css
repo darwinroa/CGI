@@ -1,0 +1,64 @@
+.mainSection {
+  background-color: #171d25;
+  min-height: 100vh;
+}
+
+.mainSection .container {
+  padding: 140px 40px 80px 40px;
+}
+
+.mainSection h1 {
+  font-size: 70px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 15px #16273c;
+  margin-bottom: 20px;
+}
+
+.flexContent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexContent .col_1 {
+  width: 75%;
+}
+
+.flexContent .col_1 .about {
+  padding-right: 60%;
+}
+
+.flexContent .col_2 {
+  width: 25%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.flexContent .col_2 .content {
+  padding-left: 20px;
+}
+
+.flexContent .col_2 p {
+  margin-top: 20px;
+  padding-right: 10%;
+}
+
+.flexContent .col_2 h4 {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+
+.containerTitleKeepItSimple {
+  display: flex;
+}
+
+.containerTitleKeepItSimple .before {
+  background-image: url("../../img/divider.svg");
+  width: 48px;
+  height: 15.3px;
+  background-size: 16px 15.3px;
+  background-repeat: repeat;
+  background-color: #d54d07;
+}

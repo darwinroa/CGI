@@ -1,17 +1,18 @@
 import React from "react";
+import * as style from "./MainSection.module.css";
 
 export default function index() {
   return (
-    <div className="mainSection">
-      <div className="container">
-        <div className="flexContent">
-          <div className="col">
+    <div className={style.mainSection}>
+      <div className={`container ${style.container}`}>
+        <div className={style.flexContent}>
+          <div className={style.col_1}>
             <div className="content">
               <h1>Komplexní IT služby jednoduše</h1>
-              <div className="about">
+              <div className={style.about}>
                 <p>
                   Jsme dodavatel cloudových, serverových a softwarových služeb s
-                  tradicí více než{" "}
+                  tradicí více než <b>20 let.</b>
                 </p>
                 <p>
                   <b>
@@ -41,9 +42,12 @@ export default function index() {
               </div>
             </div>
           </div>
-          <div className="col">
-            <div className="content">
-              <h4>keep it simple</h4>
+          <div className={style.col_2}>
+            <div className={style.content}>
+              <div className={style.containerTitleKeepItSimple}>
+                <div className={style.before}></div>
+                <h4>keep it simple</h4>
+              </div>
               <p>
                 Hlásíme se k minimalistickým principům slavného konstruktéra
                 Kellyho Johnsona (Lockheed Skunk Works / autor U-2 a SR-71
