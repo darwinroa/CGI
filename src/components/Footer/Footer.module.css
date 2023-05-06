@@ -1,0 +1,15 @@
+.footer {
+  background-color: #171d25;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 40px;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+}
