@@ -5,7 +5,7 @@ export default function index() {
   return (
     <footer className={style.footer}>
       <div className={`container ${style.container}`}>
-        <p className={style.copyright}>(C) 2023 CGI CZ s.r.o.</p>
+        <p className="copyright">(C) 2023 CGI CZ s.r.o.</p>
       </div>
     </footer>
   );

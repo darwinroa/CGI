@@ -1,11 +1,13 @@
 import React from "react";
 import * as style from "./MainSection.module.css";
 import TitleOrangeBar from "../TitleOrangeBar";
+import { StaticImage } from "gatsby-plugin-image";
 
 export default function index() {
   return (
     <div className={style.mainSection}>
       <div className={`container ${style.container}`}>
+        <StaticImage src="../../images/man.png" alt="man image" />
         <div className={style.flexContent}>
           <div className={style.col_1}>
             <div className="content">
