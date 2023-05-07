@@ -1,10 +1,24 @@
 .secundarySection {
   background-color: #131920;
-  min-height: 80vh;
+  position: relative;
 }
 
 .secundarySection .container {
   padding: 120px 40px 120px 40px;
+}
+
+.secundarySection .overlay {
+  background-image: url(../../images/rings.svg);
+  background-position: 30vw -67px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  opacity: 0.05;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
 }
 
 .secundarySection .content {

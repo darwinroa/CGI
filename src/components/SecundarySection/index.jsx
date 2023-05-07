@@ -5,6 +5,7 @@ import TitleOrangeBar from "../TitleOrangeBar";
 export default function index() {
   return (
     <div className={style.secundarySection}>
+      <div className={style.overlay}></div>
       <div className={`container ${style.container}`}>
         <div className="col">
           <div className={style.content}>

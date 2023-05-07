@@ -1,10 +1,41 @@
 .mainSection {
+  background-image: url(../../images/rings.svg);
   background-color: #171d25;
-  min-height: 100vh;
+  background-position: 500px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+}
+
+.mainSection .overlay {
+  background-image: url(../../images/man.png);
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.mainSection .mainOverlay {
+  background-attachment: fixed;
+  opacity: 0.75;
+  mix-blend-mode: overlay;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  background-position: 34vw -41px;
+  background-size: cover;
+}
+
+.mainSection .manCenter {
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  background-position: top center;
+  background-size: contain;
+  z-index: 0;
 }
 
 .mainSection .container {
-  padding: 140px 40px 80px 40px;
+  padding: 100px 40px 0px 40px;
 }
 
 .mainSection h1 {
@@ -15,9 +46,16 @@
   margin-bottom: 20px;
 }
 
+.boxSection {
+  position: relative;
+  padding: 40px 0px 80px 0px;
+}
+
 .flexContent {
   display: flex;
   flex-wrap: wrap;
+  position: relative;
+  z-index: 2;
 }
 
 .flexContent .col_1 {
