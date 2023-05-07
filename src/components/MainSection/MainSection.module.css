@@ -9,7 +9,7 @@
 }
 
 .mainSection .overlay {
-  background-image: url(../../images/man.png);
+  background-image: url(../../images/man.webp);
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
@@ -41,6 +41,7 @@
 .mainSection h1 {
   font-size: 70px;
   font-weight: 700;
+  line-height: 1;
   text-transform: uppercase;
   text-shadow: 3px 3px 15px #16273c;
   margin-bottom: 20px;
