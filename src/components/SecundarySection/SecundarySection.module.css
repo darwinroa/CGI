@@ -29,3 +29,13 @@
 .secundarySection .contactInfo {
   padding-right: 40px;
 }
+
+@media screen and (max-width: 1024px) {
+  .secundarySection .container {
+    padding: 90px 30px 90px 30px;
+  }
+
+  .secundarySection .overlay {
+    background-position: 0 0;
+  }
+}

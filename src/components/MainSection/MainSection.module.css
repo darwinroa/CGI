@@ -80,3 +80,33 @@
 .flexContent .col_2 p {
   padding-right: 10%;
 }
+
+@media screen and (max-width: 1024px) {
+  .mainSection {
+    background-position: 290px 9px;
+  }
+
+  .mainSection .mainOverlay {
+    background-position: 0 0;
+  }
+
+  .mainSection .manCenter {
+    background-position: 314px 0px;
+  }
+
+  .flexContent .col_1 {
+    width: 90%;
+  }
+
+  .flexContent .col_2 {
+    width: 100%;
+  }
+
+  .mainSection .container {
+    padding: 80px 0px 0px 30px;
+  }
+
+  .boxSection {
+    padding: 0;
+  }
+}
