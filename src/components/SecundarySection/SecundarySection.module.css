@@ -4,6 +4,7 @@
 }
 
 .secundarySection .container {
+  position: relative;
   padding: 120px 40px 120px 40px;
 }
 
@@ -23,7 +24,6 @@
 
 .secundarySection .content {
   width: 50%;
-  min-width: 400px;
 }
 
 .secundarySection .contactInfo {
@@ -37,5 +37,19 @@
 
   .secundarySection .overlay {
     background-position: 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .secundarySection .container {
+    padding: 30px;
+  }
+
+  .secundarySection .content {
+    width: 100%;
+  }
+
+  .secundarySection .contactInfo {
+    padding-right: 0;
   }
 }

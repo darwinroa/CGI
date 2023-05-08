@@ -86,6 +86,14 @@
     background-position: 290px 9px;
   }
 
+  .mainSection .container {
+    padding: 80px 0px 0px 30px;
+  }
+
+  .boxSection {
+    padding: 0;
+  }
+
   .mainSection .mainOverlay {
     background-position: 0 0;
   }
@@ -102,11 +110,42 @@
     width: 100%;
   }
 
+  .flexContent .col_2 .content {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mainSection {
+    background-position: 29vw -157px;
+    background-size: 501px auto;
+  }
+
   .mainSection .container {
-    padding: 80px 0px 0px 30px;
+    padding: 80px 30px 0px 30px;
+  }
+
+  .mainSection h1 {
+    font-size: 57px;
   }
 
   .boxSection {
-    padding: 0;
+    padding: 102px 0px 30px 0px;
+  }
+
+  .mainSection .mainOverlay {
+    background-position: center center;
+  }
+
+  .mainSection .manCenter {
+    background-position: 800px 174px;
+  }
+
+  .flexContent .col_1 .about {
+    padding-right: 20px;
+  }
+
+  .flexContent .col_1 {
+    width: 100%;
   }
 }
