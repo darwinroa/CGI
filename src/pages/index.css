@@ -25,6 +25,7 @@
   color: #dadada;
   font-family: "Lato", sans-serif;
   font-size: 17px;
+  word-wrap: break-word;
 }
 
 .container {
