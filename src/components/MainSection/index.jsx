@@ -6,9 +6,9 @@ export default function Index() {
   return (
     <div className={style.mainSection}>
       <div className={`container ${style.container}`}>
-        <div className={[style.overlay, style.mainOverlay].join(" ")}></div>
+        <div className={`${style.overlay} ${style.mainOverlay}`}></div>
         <div className={style.boxSection}>
-          <div className={[style.overlay, style.manCenter].join(" ")}></div>
+          <div className={`${style.overlay} ${style.manCenter}`}></div>
           <div className={style.flexContent}>
             <div className={style.col_1}>
               <div className="content">
