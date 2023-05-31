@@ -1,10 +1,10 @@
 import React from "react";
-import * as style from "./SecundarySection.module.css";
+import * as style from "./SecondarySection.module.css";
 import TitleOrangeBar from "../TitleOrangeBar";
 
 export default function index() {
   return (
-    <div className={style.secundarySection}>
+    <div className={style.secondarySection}>
       <div className={style.overlay}></div>
       <div className={`container ${style.container}`}>
         <div className="col">

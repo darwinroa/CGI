@@ -5,16 +5,15 @@
 .containerTitle h4 {
   font-size: 18px;
   font-weight: 700;
+  line-height: 1;
   text-transform: uppercase;
   margin-left: 10px;
   margin-bottom: 20px;
 }
 
 .orangeBar {
-  background-image: url("../../images/divider.svg");
+  background-image: url("../../images/divider.jpg");
   width: 48px;
-  height: 15.3px;
-  background-size: 16px 15.3px;
-  background-repeat: repeat;
-  background-color: #d54d07;
+  height: 16px;
+  background-size: cover;
 }

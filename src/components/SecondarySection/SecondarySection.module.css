@@ -1,14 +1,14 @@
-.secundarySection {
+.secondarySection {
   background-color: #131920;
   position: relative;
 }
 
-.secundarySection .container {
+.secondarySection .container {
   position: relative;
   padding: 120px 40px 120px 40px;
 }
 
-.secundarySection .overlay {
+.secondarySection .overlay {
   background-image: url(../../images/rings.svg);
   background-position: 30vw -67px;
   background-repeat: no-repeat;
@@ -22,34 +22,35 @@
   position: absolute;
 }
 
-.secundarySection .content {
+.secondarySection .content {
   width: 50%;
 }
 
-.secundarySection .contactInfo {
+.secondarySection .contactInfo {
+  margin-top: 10px;
   padding-right: 40px;
 }
 
 @media screen and (max-width: 1024px) {
-  .secundarySection .container {
+  .secondarySection .container {
     padding: 90px 30px 90px 30px;
   }
 
-  .secundarySection .overlay {
+  .secondarySection .overlay {
     background-position: 0 0;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .secundarySection .container {
+  .secondarySection .container {
     padding: 30px;
   }
 
-  .secundarySection .content {
+  .secondarySection .content {
     width: 100%;
   }
 
-  .secundarySection .contactInfo {
+  .secondarySection .contactInfo {
     padding-right: 0;
   }
 }
