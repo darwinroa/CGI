@@ -12,7 +12,9 @@ export default function Index() {
           <div className={style.flexContent}>
             <div className={style.col_1}>
               <div className="content">
-                <h1>Komplexní IT služby jednoduše</h1>
+                <h1>
+                  Komplexní IT služby <br /> jednoduše
+                </h1>
                 <div className={style.about}>
                   <p>
                     Jsme dodavatel cloudových, serverových a softwarových služeb

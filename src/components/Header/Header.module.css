@@ -29,3 +29,13 @@
   text-transform: none;
   font-size: 15px;
 }
+
+@media screen and (max-width: 768px) {
+  .mainTitle {
+    font-size: 20px;
+  }
+
+  .navbar .container {
+    padding: 20px 30px;
+  }
+}
