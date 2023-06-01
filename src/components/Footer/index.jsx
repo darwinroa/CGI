@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import * as style from "./Footer.module.css";
 
-export default function index() {
+export default function Index() {
   useEffect(() => {
     const interval = setInterval(() => {
       const year = new Date().getFullYear();
